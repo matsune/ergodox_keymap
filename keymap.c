@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LANG2, KC_SPC,   LGUI(KC_Z),
 
         // right hand
-        KC_NO,          KC_6,   KC_7,   KC_8,     KC_9,     KC_0,     KC_BSPC,
+        LGUI(KC_BSPC),  KC_6,   KC_7,   KC_8,     KC_9,     KC_0,     KC_BSPC,
         LALT(KC_BSPC),  KC_Y,   KC_U,   KC_I,     KC_O,     KC_P,     KC_BSLS,
                         KC_H,   KC_J,   KC_K,     KC_L,     KC_SCLN,  KC_ENT,
         KC_MINS,        KC_N,   KC_M,   KC_COMM,  KC_DOT,   KC_SLSH,  KC_RSFT,
